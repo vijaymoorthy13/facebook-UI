@@ -1,0 +1,394 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Vijay/Profile</title>
+</head>
+
+<body>
+
+    <nav>
+      <!----------NAV LEFT--------->
+      <div class="nav-left">
+        <div>
+            <a href="home.html"><i class='bx bxl-facebook-circle logo'></i></a>
+        </div>
+        <div class="left-icon">
+            <i class='bx bxs-home'></i>
+            <i class='bx bx-movie-play'></i>
+            <i class='bx bxs-group'></i>
+        </div>
+    </div>
+
+    <!----------NAV RIGHT--------->
+    <div class="nav-right">
+
+        <div class="search-box">
+            <i class='bx bx-search search-icon'></i>
+            <input class="search" type="text" placeholder="Search friends">
+        </div>
+
+        <div class="nav-user-icon online">
+            <a href="profile.html"><img src="images/2_1.jpg"></a>
+        </div>
+        <h4> Vijay</h4>
+
+
+        <div class="icon">
+            <i class='bx bxs-grid grid'></i>
+        </div>
+        <div class="icon">
+            <i class='bx bxl-messenger messenger'></i>
+        </div>
+        <div class="icon">
+            <i class='bx bxs-bell bell'></i>
+        </div>
+        <div class="icon" onclick="settingsToggle()">
+            <i class='bx bx-caret-down'></i>
+        </div>
+
+    </div>
+        <!----------------------------- SETTINGS MENU -------------------------------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/2_1.jpg">
+                    <div>
+                        <p>Vijay</p>
+                        <a href="#">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="user-profile">
+                    <i class='bx bxs-comment-error'></i>
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us improve the new Facebook</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-link">
+                    <div>
+                        <i class='bx bxs-cog settings-icon'></i>
+                        <a href="#">Settings & Privacy<i class='bx bx-chevron-right arrow'></i></a>
+                    </div>
+
+                    <div>
+                        <i class='bx bxs-help-circle settings-icon'></i>
+                        <a href="#">Help & Support<i class='bx bx-chevron-right arrow'></i></a>
+                    </div>
+
+                    <div>
+                        <i class='bx bxs-moon settings-icon'></i>
+                        <a href="#">Display & accessibility<i class='bx bx-chevron-right arrow'></i></a>
+                    </div>
+
+                    <div>
+                        <i class='bx bxs-log-out settings-icon'></i>
+                        <a href="#">Log Out</a>
+                    </div>
+
+                    <p>Privacy &#183; Terms &#183; Advertising &#183; Ad choices &#183; Cookies &#183; More &#183;
+                        Facebook &copy; 2021</p>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!------------------------  PROFILE PAGE  ------------------------------>
+
+    <div class="profile-container">
+        <div class="cover-img">
+           <img src="images/coverimg.jpg">
+               <div class="profile-img">
+                  <img src="images/2_1.jpg">
+                  <i class='bx bxs-camera camera'></i>
+                  <h3 class="profile-name">Vijay</h3>                                                
+               </div>                              
+               <div class="edit-cover">               
+                <i class='bx bxs-camera camera'></i>       
+                <h4>Edit Cover Photo</h4>
+               </div>
+       </div>                  
+       
+
+        <hr>
+        <div class="profile-edit">
+
+            <div class="edit-profile">
+                <i class='bx bxs-pencil'></i><a href="#">Edit profile</a>
+            </div>
+
+            <div class="option-dot">
+                <i class='bx bx-dots-horizontal-rounded option-dot'></i>
+            </div>
+        </div>
+
+        <div class="profile-options">
+            <a href="#">Posts</a>
+            <a href="#">About</a>
+            <a href="#">Friends <span>450</span></a>
+            <a href="#">Photos</a>            
+            <a href="#">More <i class="bx bx-caret-down more"></i></a>
+        </div>
+
+    </div>
+
+    <!------------------------------ PROFILE INFO ----------------------------------------->
+
+    <div class="profile-info">
+        <div class="info-col">
+
+            <div class="profile-lock">
+                <i class='bx bxs-lock'></i>
+                <h3>You've Locked Your Profile</h3>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <div class="join-date">
+                    <i class='bx bxs-time-five'></i>
+                    <h4>joined On Feburary 2020</h4>
+                </div>
+                <p class="intro-text">Think Big... Trust Yourself and make it Happen....<br> When you get tired, Learn
+                    to rest, not quit</p>
+                <i class='bx bxs-home'></i>
+                <h5>Lives in Chennai, India</h5><br>
+                <i class='bx bxs-map'></i>
+                <h5>From Chennai, India</h5>
+                <hr>
+                <div class="edit-details">
+                    <p>Edit Details</p>
+                </div>
+                <div class="add-hobbies">
+                    <p>Add Hobbies</p>
+                </div>
+                <div class="add-featured">
+                    <p>Edit Featured</p>
+                </div>
+
+            </div>
+
+            <div class="profile-photos">
+                <div class="photo-title">
+                    <h3>Photos</h3>
+                    <a href="#">All Photos</a>
+                </div>
+
+                <div class="photo-box">
+                    <div><img src="images/photos1.jpg"></div>
+                    <div><img src="images/photos2.jpg"></div>
+                    <div><img src="images/photos3.jpg"></div>
+                    <div><img src="images/photos4.jpg"></div>
+                    <div><img src="images/photos5.jpg"></div>
+                    <div><img src="images/photos6.jpg"></div>
+                    <div><img src="images/photos7.jpg"></div>
+                    <div><img src="images/photos8.jpg"></div>
+                    <div><img src="images/photos9.jpg"></div>
+                </div>
+            </div>
+
+            <div class="profile-photos">
+                <div class="photo-title">
+                    <h3>Friends</h3>
+                    <a href="#">All Friends</a>
+                </div>
+                <p>450 (110 Mutual)</p>
+
+                <div class="friends-box">
+                    <div><img src="images/1.jpg"></div>
+                    <div><img src="images/2.jpg"></div>
+                    <div><img src="images/3.jpg"></div>
+                    <div><img src="images/4.jpg"></div>
+                    <div><img src="images/5.jpg"></div>
+                    <div><img src="images/6.jpg"></div>
+                    <div><img src="images/7.jpg"></div>
+                    <div><img src="images/8.jpg"></div>
+                    <div><img src="images/9.jpg"></div>
+                </div>
+            </div>
+
+            <p class="footer">Privacy &#183; Terms &#183; Advertising &#183; Ad choices &#183; Cookies &#183; More
+                &#183;
+                Facebook &copy; 2021</p>
+
+        </div>
+
+
+        <div class="post-col">
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/2_1.jpg">
+                    <div>
+                        <p>Vijay</p>
+                        <small>Public<i class='bx bx-caret-down'></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Vijay?"></textarea>
+                    <div class="add-post">
+                        <a href="#"><i class='bx bxs-video-plus'></i>Live Video</a>
+                        <a href="#"><i class='bx bxs-image-add'></i>Photo/Video</a>
+                        <a href="#"><i class='bx bx-smile'></i>Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <!------------------------------POST 1----------------------------------------->
+            <div class="profile-post-container">
+
+                <div class="user-profile">
+                    <img src="images/8.jpg">
+                    <div class="post-name">
+                        <p>Neymar Champ</p>
+                        <span>Aug 02 2021, 13:40 pm</span>
+                    </div>
+                    <div class="post-dot">
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+
+                <p class="post-text">Sometimes all you need is a great friend and thirst for adventure nd most
+                    beautiful, memories to collect...<a href="#">#friendsforever</a> <a href="#">#tarvelfreak</a></p>
+                <img src="images/post1.jpg" class="post-image">
+
+                <hr>
+                <div class="post-row">
+                    <div class="post-icons">
+                        <div class="like"><i class='bx bxs-like'></i>120</div>
+                        <div class="comment"><i class='bx bx-comment'></i>24</div>
+                        <div class="share"><i class='bx bx-share'></i>2</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/2_1.jpg"><i class='bx bx-caret-down'></i>
+                    </div>
+                </div>
+
+            </div>
+            <!------------------------------POST 2----------------------------------------->
+            <div class="profile-post-container">
+
+                <div class="user-profile">
+                    <img src="images/post_profile.jpg">
+                    <div class="post-name">
+                        <p>World Health Organization (WHO)<i class='bx bxs-check-circle'></i></p>
+                        <span>sep 10 2021, 02:10 pm</span>
+                    </div>
+                    <div class="post-dot">
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+
+                <p class="post-text">Even after getting vaccinated against COVID-19, keep taking precautions to protect
+                    yourself, family and friends<br>....sharing a COVID-19 update....</p>
+                <img src="images/post2.png" class="post-image">
+
+                <hr>
+                <div class="post-row">
+                    <div class="post-icons">
+                        <div class="like"><i class='bx bxs-like'></i>10K</div>
+                        <div class="comment"><i class='bx bx-comment'></i>2K</div>
+                        <div class="share"><i class='bx bx-share'></i>1k</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/2_1.jpg"><i class='bx bx-caret-down'></i>
+                    </div>
+                </div>
+
+            </div>
+            <!------------------------------POST 3----------------------------------------->
+            <div class="profile-post-container">
+
+                <div class="user-profile">
+                    <img src="images/post_profile.jpg">
+                    <div class="post-name">
+                        <p>World Health Organization (WHO)<i class='bx bxs-check-circle'></i></p>
+                        <span>sep 30 2021, 08:10 pm</span>
+                    </div>
+                    <div class="post-dot">
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+
+                <p class="post-text">Getting ill with with COVID-19 after you are vaccinated is possible, but rare. Your
+                    symptoms are more likely to be mild....<br>Sharing a COVID-19 update....</p>
+                <img src="images/post3.png" class="post-image">
+
+                <hr>
+                <div class="post-row">
+                    <div class="post-icons">
+                        <div class="like"><i class='bx bxs-like'></i>12K</div>
+                        <div class="comment"><i class='bx bx-comment'></i>2K</div>
+                        <div class="share"><i class='bx bx-share'></i>525</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/2_1.jpg"><i class='bx bx-caret-down'></i>
+                    </div>
+                </div>
+
+            </div>
+            <!--------------------------------------POST 4-------------------------------------------------->
+            <div class="profile-post-container">
+
+                <div class="user-profile">
+                    <img src="images/1.jpg">
+                    <div class="post-name">
+                        <p>Alden Catrell</p>
+                        <span>jun 25 2021, 09:10 pm</span>
+                    </div>
+                    <div class="post-dot">
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+
+                <p class="post-text">A good day with my family nd lots of memories to be saved....<br><a
+                        href="#">#family</a></p>
+                <img src="images/post4.jpg" class="post-image">
+
+                <hr>
+                <div class="post-row">
+                    <div class="post-icons">
+                        <div class="like"><i class='bx bxs-like'></i>80</div>
+                        <div class="comment"><i class='bx bx-comment'></i>20</div>
+                        <div class="share"><i class='bx bx-share'></i>5</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/2_1.jpg"><i class='bx bx-caret-down'></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

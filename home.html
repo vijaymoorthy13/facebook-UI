@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Facebook</title>
+</head>
+
+<body>
+    <nav>
+        <!----------NAV LEFT--------->
+        <div class="nav-left">
+            <div>
+                <i class='bx bxl-facebook-circle logo'></i>
+            </div>
+            <div class="left-icon">
+                <i class='bx bxs-home'></i>
+                <i class='bx bx-movie-play'></i>
+                <i class='bx bxs-group'></i>
+            </div>
+        </div>
+
+        <!----------NAV RIGHT--------->
+        <div class="nav-right">
+
+            <div class="search-box">
+                <i class='bx bx-search search-icon'></i>
+                <input class="search" type="text" placeholder="Search friends">
+            </div>
+
+            <div class="nav-user-icon online">
+                <a href="profile.html"><img src="images/2_1.jpg"></a>
+            </div>
+            <h4> Vijay</h4>
+
+
+            <div class="icon">
+                <i class='bx bxs-grid grid'></i>
+            </div>
+            <div class="icon">
+                <i class='bx bxl-messenger messenger'></i>
+            </div>
+            <div class="icon">
+                <i class='bx bxs-bell bell'></i>
+            </div>
+            <div class="icon" onclick="settingsToggle()">
+                <i class='bx bx-caret-down'></i>
+            </div>
+
+        </div>
+        <!----------------------------- SETTINGS MENU -------------------------------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/2_1.jpg">
+                    <div>
+                        <p>Vijay</p>
+                        <a href="#">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="user-profile">
+                    <i class='bx bxs-comment-error'></i>
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us improve the new Facebook</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-link">
+                    <div>
+                        <i class='bx bxs-cog settings-icon'></i>
+                        <a href="#">Settings & Privacy<i class='bx bx-chevron-right arrow'></i></a>
+                    </div>
+
+                    <div>
+                        <i class='bx bxs-help-circle settings-icon'></i>
+                        <a href="#">Help & Support<i class='bx bx-chevron-right arrow'></i></a>
+                    </div>
+
+                    <div>
+                        <i class='bx bxs-moon settings-icon'></i>
+                        <a href="#">Display & accessibility<i class='bx bx-chevron-right arrow'></i></a>
+                    </div>
+
+                    <div>
+                        <i class='bx bxs-log-out settings-icon'></i>
+                        <a href="#">Log Out</a>
+                    </div>
+
+                    <p>privacy &#183; Terms &#183; Advertising &#183; Ad choices &#183; Cookies &#183; More &#183;
+                        Facebook &copy; 2021</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <div class="container">
+        <!--------------------------LEFT SIDEBAR------------------------------->
+        <div class="left-sidebar">
+
+            <div class="imp-links">
+                <a href="#"><i class='bx bxs-heart-circle'></i>COVID-19 Information Center</a>
+                <a href="#"><i class='bx bxs-group'></i>Friends</a>
+                <a href="#"><i class='bx bxs-bookmarks'></i>Saved</a>
+                <a href="#"><i class='bx bx-group'></i>Groups</a>
+                <a href="#"><i class='bx bxs-time'></i>Memories</a>
+                <a href="#"><i class='bx bxs-flag'></i>Pages</a>
+                <a href="#"><i class='bx bxs-chevron-down'></i>See More</a>
+            </div>
+
+
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut1.jpg">Web Developers</a>
+                <a href="#"><img src="images/shortcut2.jpg">Web Designer</a>
+                <a href="#"><img src="images/shortcut3.jpg">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut1.jpg">Web Experts</a>
+            </div>
+
+            <div class="footer">
+                <p>Copyright &copy; 2021 All Rights Reserved vijay</p>
+            </div>
+        </div>
+
+        <!--------------------------MAIN CONTENT------------------------------->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story">
+                    <i class='bx bx-plus'></i>
+                    <p>Create Story</p>
+                </div>
+                <div class="story story1">
+                    <img src="images/1.jpg">
+                    <p>Alden Catrell</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/2.jpg">
+                    <p>Thomas Crane</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/8.jpg">
+                    <p>Neymar Champ</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/9.jpg">
+                    <p>Cierra Vega</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <a href="profile.html"><img src="images/2_1.jpg"></a>
+                    <div>
+                        <p>Vijay</p>
+                        <small>Public<i class='bx bx-caret-down'></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Vijay?"></textarea>
+                    <div class="add-post">
+                        <a href="#"><i class='bx bxs-video-plus'></i>Live </a>
+                        <a href="#"><i class='bx bxs-image-add'></i>Photo/Video</a>
+                        <a href="#"><i class='bx bx-smile'></i>Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------POST 1----------------------------------------->
+            <div class="post-container">
+
+                <div class="user-profile">
+                    <img src="images/8.jpg">
+                    <div class="post-name">
+                        <p>Neymar Champ</p>
+                        <span>Aug 02 2021, 13:40 pm</span>
+                    </div>
+                    <div class="post-dot">
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+
+                <p class="post-text">Sometimes all you need is a great friend and thirst for adventure nd most
+                    beautiful, memories to collect...<a href="#">#friendsforever</a> <a href="#">#tarvelfreak</a></p>
+                <img src="images/post1.jpg" class="post-image">
+
+                <hr>
+                <div class="post-row">
+                    <div class="post-icons">
+                        <div class="like"><i class='bx bxs-like'></i>120</div>
+                        <div class="comment"><i class='bx bx-comment'></i>24</div>
+                        <div class="share"><i class='bx bx-share'></i>2</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/2_1.jpg"><i class='bx bx-caret-down'></i>
+                    </div>
+                </div>
+
+            </div>
+            <!------------------------------POST 2----------------------------------------->
+            <div class="post-container">
+
+                <div class="user-profile">
+                    <img src="images/post_profile.jpg">
+                    <div class="post-name">
+                        <p>World Health Organization (WHO)<i class='bx bxs-check-circle'></i></p>
+                        <span>sep 10 2021, 02:10 pm</span>
+                    </div>
+                    <div class="post-dot">
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+
+                <p class="post-text">Even after getting vaccinated against COVID-19, keep taking precautions to protect
+                    yourself, family and friends<br>....sharing a COVID-19 update....</p>
+                <img src="images/post2.png" class="post-image">
+
+                <hr>
+                <div class="post-row">
+                    <div class="post-icons">
+                        <div class="like"><i class='bx bxs-like'></i>10K</div>
+                        <div class="comment"><i class='bx bx-comment'></i>2K</div>
+                        <div class="share"><i class='bx bx-share'></i>1k</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/2_1.jpg"><i class='bx bx-caret-down'></i>
+                    </div>
+                </div>
+
+            </div>
+            <!------------------------------POST 3----------------------------------------->
+            <div class="post-container">
+
+                <div class="user-profile">
+                    <img src="images/post_profile.jpg">
+                    <div class="post-name">
+                        <p>World Health Organization (WHO)<i class='bx bxs-check-circle'></i></p>
+                        <span>sep 30 2021, 08:10 pm</span>
+                    </div>
+                    <div class="post-dot">
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+
+                <p class="post-text">Getting ill with with COVID-19 after you are vaccinated is possible, but rare. Your
+                    symptoms are more likely to be mild....<br>Sharing a COVID-19 update....</p>
+                <img src="images/post3.png" class="post-image">
+
+                <hr>
+                <div class="post-row">
+                    <div class="post-icons">
+                        <div class="like"><i class='bx bxs-like'></i>12K</div>
+                        <div class="comment"><i class='bx bx-comment'></i>2K</div>
+                        <div class="share"><i class='bx bx-share'></i>525</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/2_1.jpg"><i class='bx bx-caret-down'></i>
+                    </div>
+                </div>
+
+            </div>
+            <!--------------------------------------POST 4-------------------------------------------------->
+            <div class="post-container">
+
+                <div class="user-profile">
+                    <img src="images/1.jpg">
+                    <div class="post-name">
+                        <p>Alden Catrell</p>
+                        <span>jun 25 2021, 09:10 pm</span>
+                    </div>
+                    <div class="post-dot">
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+
+                <p class="post-text">A good day with my family nd lots of memories to be saved....<br><a
+                        href="#">#family</a></p>
+                <img src="images/post4.jpg" class="post-image">
+
+                <hr>
+                <div class="post-row">
+                    <div class="post-icons">
+                        <div class="like"><i class='bx bxs-like'></i>80</div>
+                        <div class="comment"><i class='bx bx-comment'></i>20</div>
+                        <div class="share"><i class='bx bx-share'></i>5</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/2_1.jpg"><i class='bx bx-caret-down'></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <button type="button" class="load-btn">Load More</button>
+
+        </div>
+
+        <!--------------------------RIGHT SIDEBAR------------------------------->
+        <div class="right-sidebar">
+
+            <div class=event-list>
+
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>02</h3>
+                        <span>August</span>
+                    </div>
+
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p><i class='bx bxs-map'></i>Info Tech park</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>13</h3>
+                        <span>December</span>
+                    </div>
+
+                    <div class="right-event">
+                        <h4>Machine Learning</h4>
+                        <p><i class='bx bxs-map'></i>Info Tech park</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-title">
+                    <h4>Advertisement</h4>
+                    <a href="#">close</a>
+                </div>
+                <img src="images/adv.jpg" class="sidebar-adv">
+            </div>
+            <hr>
+
+            <div class="contacts-title">
+                <h4 class="">Contacts</h4>
+                <i class='bx bx-video-plus'></i>
+                <i class='bx bx-search'></i>
+                <i class='bx bx-dots-horizontal-rounded'></i>
+            </div>
+
+        <div class="friend-list">
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/1.jpg">
+                </div>
+                <p>Alden Cantrell</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/9.jpg">
+                </div>
+                <p>Cierra Vega</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/3.jpg">
+                </div>
+                <p>Kierra Gentry</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/4.jpg">
+                </div>
+                <p>Pierre Cox</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/2.jpg">
+                </div>
+                <p>Thomas Crane</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/6.jpg">
+                </div>
+                <p>Miranda Shaffer</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/4.jpg">
+                </div>
+                <p>Bradyn Kramer</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/3.jpg">
+                </div>
+                <p>Colin Boone</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/5.jpg">
+                </div>
+                <p>Lucas Glenn</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/8.jpg">
+                </div>
+                <p>Neymar Champ</p>
+            </div>
+
+      </div>
+     </div>
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>
