@@ -2,7 +2,7 @@
 
 Responsive social media website design looks like Facebook built using Html, CSS, JavaScript.
   2 pages of website,
-  - First page of this website will be homw page with a left sidebar, main content, Right sidebar.
+  - First page of this website will be home page with a left sidebar, main content, Right sidebar.
   - LeftSidebar with Important links list.
   - Maincontent with story gallery, Add Post Container, Feed Post container.
   - RightSidebar with event list-Ex..,Birthday events, Advertisement section and Online Friends list.
